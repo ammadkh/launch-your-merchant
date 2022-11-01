@@ -1,0 +1,113 @@
+.MuiAccordionSummary-content {
+    display: contents !important;
+  }
+
+
+.wrapper {
+  text-align: center;
+  background-color: lightgray;
+  margin-top: 3rem !important;
+}
+
+.title {
+  margin-top: 3rem;
+  font-size: 3rem;
+  font-weight: bold; 
+}
+
+.amountWrapper {
+  display: flex;
+  justify-content: center;
+}
+.dollars {
+  margin-top: 30px; 
+  font-size: 1.5em;
+  font-weight: 800 
+}
+
+.zero {
+  margin: 3px;
+  font-size: 6em;
+  font-weight: bold;
+  vertical-align: text-top;
+}
+
+.usd {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: gray
+}
+
+.month {
+    margin-top: 50px;
+    margin-left: -30px;
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.btnFree {
+    width: 30%;
+    padding: 10px;
+    border-radius: 0 !important;
+    background-color: blue !important;
+    text-transform: none !important;
+    margin-bottom: 30px !important;
+}
+
+.accrdWrapper {
+  margin-top: 30px !important; 
+  display: flex;
+  justify-content: center !important;
+  width: 20% !important;
+  margin: auto !important;
+}
+
+.accord {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: lightgray !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imgWrapper {
+  width: 430px;
+  margin-top: 2rem !important;
+  background-color: lightgray;
+  margin: auto;
+}
+.dropdownSt {
+  width: 40%;
+  text-align: center;
+}
+
+.banner {
+  background-color: lightgray;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 860px) {
+  .btnFree {
+    width: 60%;
+}
+.accrdWrapper {
+  width: 30% !important;
+}
+.imgWrapper {
+  width: 250px;
+}
+
+.dropdownSt {
+  width: 80% !important;
+}
+
+.title {
+  font-size: xx-large;
+}
+
+.banner {
+  border-radius: 10px;
+}
+
+}

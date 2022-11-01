@@ -1,0 +1,55 @@
+.wrapper {
+    text-align: center;
+    background-color: lightgray;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.boxWrapper {
+    margin: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem
+}
+
+.boxContainer {
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+}
+
+.integers {
+    font-size: 2rem;
+    font-weight: bold;
+    color: blue;
+    position: absolute;
+    left: 0.7rem;
+    top: 0.5rem;
+}
+
+.header {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 0.8rem;
+}
+
+
+@media only screen and (max-width: 860px) {
+    .title {
+        font-size: xx-large;
+    }
+
+    .boxWrapper {
+        flex-direction: column;
+    }
+    .boxContainer {
+     margin: auto;
+    }
+  
+  }

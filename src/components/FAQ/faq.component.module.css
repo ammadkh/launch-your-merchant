@@ -1,0 +1,16 @@
+.MuiAccordionSummary-content {
+    display: flex !important;
+  }
+
+
+  .title {
+    font-size: 3rem;
+    font-weight: bold; 
+  }
+
+  @media only screen and (max-width: 860px) {
+    .title {
+        font-size: xx-large;
+    }
+
+  }

@@ -1,0 +1,62 @@
+.container {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.title { 
+    font-size: 3rem;
+     font-weight: bold;
+    letter-spacing: 0.9px 
+}
+
+.wrapper {
+    background-color:black;
+    margin-top: 70px;
+    padding: 20px;
+    position: relative;
+}
+
+.iconSize {
+    font-size: 60px;
+}
+
+.arrowLeft {
+    position: absolute;
+    top: 43%;
+    left: 43rem;
+    color: white;
+}
+
+.arrowRight {
+    position: absolute;
+    top: 43%;
+    right: 7rem;
+    color: white;
+}
+
+@media only screen and (max-width: 860px) {
+
+    .title { 
+        font-size: xx-large;
+    }
+
+    .arrowLeft {
+        position: absolute;
+        top: 38%;
+        left: 40%;
+        color: white;
+    }
+    
+    .arrowRight {
+        position: absolute;
+        top: 38%;
+        right: 40%;
+        color: white;
+    }
+
+    .iconSize {
+        font-size: 35px;
+    }
+    
+
+  }

@@ -1,0 +1,54 @@
+.wrapper {
+    text-align: center;
+    margin-top: 3rem !important; 
+}
+
+.title {
+    font-size: 3rem;
+     font-weight: bold; 
+}
+
+.container {
+    margin: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgWrapper {
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content {
+    margin: 20px 40px;
+    text-align: start;
+}
+
+@media only screen and (max-width: 860px) {
+    .title {
+        font-size: xx-large;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+    .content {
+        margin: 20px 0;
+    }
+    .desc {
+        padding: 10px 30px;
+    }
+   
+  }

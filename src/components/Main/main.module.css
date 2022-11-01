@@ -1,0 +1,33 @@
+.mainContainer {
+    background-color: white;
+    padding: 140px 0px 140px 40px;
+}
+
+.title {
+    font-size: 3em;
+    font-weight: bold 
+}
+
+.image {
+    width: 600px;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 5px;
+    box-shadow: 5px 5px 3px 2px lightgrey;
+}
+
+@media only screen and (max-width: 860px) {
+    .mainContainer {
+        padding: 60px 50px;
+    }
+
+    .title {
+        font-size: xx-large;
+    }
+    
+    .image {
+      width: 250px;
+      margin: auto;
+    }
+  }

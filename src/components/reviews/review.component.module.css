@@ -1,0 +1,41 @@
+.wrapper {
+    text-align: center;
+     margin-top: 3rem !important;
+}
+
+.customerImgContainer {
+    width: 600px;
+    overflow: hidden; 
+}
+
+.customerImg {
+    object-fit: cover;
+    margin-left: -80px;
+}
+
+.leftSide {
+    text-align: start; 
+    padding: 30px 100px !important; 
+}
+
+
+@media only screen and (max-width: 860px) {
+
+    .grid {
+     flex-direction: column-reverse !important;
+    }
+
+    .leftSide {
+        padding: 30px 70px !important; 
+    }
+
+    .customerImgContainer {
+        width: 300px;
+    }
+
+    .customerImg {
+        margin-left: 0px;
+    }
+    
+
+  }
